@@ -1,4 +1,5 @@
 import { Activity, ProductivityGoal, Habit, DayPlan, UserPreferences } from '../types';
+import defaultAvatar from '../assets/images/avatar_productivity_user_1791180903155.jpg';
 
 export function getTodayDateString(): string {
   const d = new Date();
@@ -50,7 +51,7 @@ export function getPastDates(daysCount: number): string[] {
 export const DEFAULT_PREFERENCES: UserPreferences = {
   name: 'Alex Rivera',
   role: 'Product Engineer',
-  avatarUrl: '/src/assets/images/avatar_productivity_user_1791180903155.jpg',
+  avatarUrl: defaultAvatar,
   dailyFocusTargetMinutes: 360, // 6 hours
   dailyTasksTarget: 6,
   workStartHour: 8,
