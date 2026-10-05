@@ -1,0 +1,6 @@
+{
+  "name": "Tempo - Activity & Productivity Tracker",
+  "description": "A clean, modern dashboard for tracking daily activities, time-blocks, habits, and productivity goals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
